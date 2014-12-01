@@ -1,0 +1,92 @@
+.button {
+	background: #ff9401;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmOTQwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjYwMzgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ff9401 0%, #ff6038 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9401), color-stop(100%,#ff6038));
+	background: -webkit-linear-gradient(top,  #ff9401 0%,#ff6038 100%);
+	background: -o-linear-gradient(top,  #ff9401 0%,#ff6038 100%);
+	background: -ms-linear-gradient(top,  #ff9401 0%,#ff6038 100%);
+	background: linear-gradient(to bottom,  #ff9401 0%,#ff6038 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9401', endColorstr='#ff6038',GradientType=0 );
+
+	border-radius: 3px;
+	display: block;
+	padding: 5px;
+	
+	color: #fff;
+	
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+}
+.button:hover {
+	box-shadow: inset 0 0 100px rgba(255,255,255,0.2);
+}
+.button:active {
+	box-shadow: inset 0 0 100px rgba(0,0,0,0.3),
+				inset 0 0 10px #111;
+}
+
+.buyButton {
+
+	border: 1px solid #ff9401;
+	border-radius: 3px;
+	display: block;
+	padding: 5px;
+	position: absolute;
+	width: 169px;
+	height: 19px;
+	margin-left: 140px;
+	margin-top: 115px;
+	
+	color: #ff7126;
+
+	text-decoration: none;
+	font-size: 22px;
+
+	text-align: right;
+
+	line-height: 18px;
+	border-right: none;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.buyButton:hover {
+	box-shadow: 0 0 10px rgba(255,113,38,0.5);
+	width: 179px;
+	margin-left: 130px;
+}
+.buyButton:active {
+	box-shadow: inset 0 0 50px rgba(0,0,0,0.3);
+	margin-top: 116px;
+}
+.buyButton i {
+	text-decoration: none;
+	text-shadow: none;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+
+	color: #fff;
+	background-color: #ff9401;
+
+	display: block;
+	padding-right: 10px;
+	padding-left: 5px;
+	margin-top: -5px;
+	margin-left: -5px;
+	float: left;
+
+	height: 30px;
+	line-height: 30px;
+
+	border-right: 1px solid #ff9401;
+}
+.buyButton b {
+	text-decoration: none;
+	text-shadow: none;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff9401;
+}

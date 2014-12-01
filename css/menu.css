@@ -1,0 +1,33 @@
+#topMenu {
+	display: inline-block;
+	position: absolute;
+	margin-top: -75px; 
+	margin-left: 300px;
+
+	height: 42px;
+
+	padding-left: 4px;
+
+	border-left: 1px solid #b25613;
+}
+
+#topMenu a {
+	display: inline-block;
+	padding: 12px 18px;
+
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.6);
+
+	border-right: 1px solid #b25613;
+	margin-left: -4px;
+}
+#topMenu a:hover {
+	color: #fff;
+	background-color: rgba(255,255,255,0.2);
+}
+#topMenu a:active {
+	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: inset 0 0 10px #111;
+}

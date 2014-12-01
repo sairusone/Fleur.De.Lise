@@ -1,0 +1,27 @@
+#main_section {
+	background-color: #000;
+	width: 700px;
+}
+#main_section #content {
+	background-color: #fff;
+}
+
+section.left, section.right {
+	width: 300px;
+	display: inline-table;
+	padding: 20px;
+}
+
+section.left {
+	text-align: right;
+}
+section.right {
+	text-align: left;
+}
+
+.information {
+	margin-top: 30px;
+	font-size: 12px;
+	font-style: italic;
+	color: red;
+}

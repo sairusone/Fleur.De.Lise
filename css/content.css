@@ -1,0 +1,28 @@
+.element {
+	display: inline-table;
+	width: 310px;
+	height: 140px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	top: 0;
+}
+.element img {
+	width: 130px;
+	position: absolute;
+}
+.element span {
+	width: 170px;
+	position: absolute;
+	
+	margin-left: 140px;
+
+	font-size: 12px;
+}
+.element span u {
+	color: #ff7126;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 5px;
+}
